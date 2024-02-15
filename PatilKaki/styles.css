@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Barlow:wght@300&family=Josefin+Sans:wght@100;200;300;400;500&family=Phudu&family=Rubik:wght@400;500;700&family=Work+Sans:wght@300&display=swap');
+
+.navbar {
+    background-color: #070F2B;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 10px;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li a img {
+    width: 30px;
+    height: auto;
+}
+
+.hero {
+    background-color: #363062;
+    color: #F1F6F9;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.about-founder {
+    background-color: #D8D9DA;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-founder h2 span {
+    color: #910A67;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.why-choose-us {
+    background-color: #eff2f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 40px;
+    color: crimson;
+    font-weight: bold;
+}
+
+.icon-box {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.icon img {
+    width: 80px;
+    background-color: #f2f2f2;
+}
+
+
+.countdown-timer {
+    background-color: #492362;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#timer {
+    font-size: 48px;
+}
+
+
+.cta {
+    color: #e9e1d7;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #070F2B;
+}
+
+
+#form-overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(215, 199, 199, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container {
+    background-color: #fefefe;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.info-box {
+    width: 150px;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.info-box h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #331D2C;
+}
+
+.info {
+    font-size: 14px;
+    color: #333;
+}
+
+.info-box:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+}
+
+.register-button {
+    background-color: #F99417;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.register-button:hover {
+    background-color: #45a049;
+}
+
+.about-founder {
+    text-align: center;
+}
+
+.founder-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.founder-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    flex: 1;
+}
+
+.founder-content p span {
+    font-weight: bold;
+}
+
+.founder-image {
+    margin-left: 20px;
+}
+
+.founder-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.content-box {
+    background-color: #3f2561;
+    border: thick double white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(78, 64, 125, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-content {
+    flex: 1;
+    margin-right: 20px;
+
+}
+
+.advantages-box {
+    flex: 1;
+}
+
+.advantages-box h3 {
+    margin: 0 0 10px 0;
+}
+
+.advantages-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.advantages-box li {
+    margin-bottom: 10px;
+}
